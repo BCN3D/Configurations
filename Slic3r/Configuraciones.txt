@@ -1,0 +1,20 @@
+Las configuraciones han sido pensadas para la BCN3D+ con boquilla de 0,4mm. 
+
+Deben servir como punto de partida y pueden ser mejoradas para ir más deprisa, conseguir un mejor acabado...
+
+Las abreviaturas corresponden a:
+
+ST:   Configuración estandard con altura de capa de 0,2mm para la mayoría de construcciones.
+
+HQ:   Configuración estandard de alta calidad con altura de capa de 0,1mm para la mayoría de construcciones.
+
+HS:   Configuración pensada para trabajos en los que necesitamos obtener el modelo de una forma rápida, sin perder mucha calidad. 
+      Para ello, se configura una altura de capa de 0,25, un infill del 10%, se realizan sólamente 2 perímetros y se aumenta la velocidad.
+
+SV:   Configuración especial para piezas tipo envase. No hay infill y la pieza se va fabricando en espiral con una única superifie, mejorando el acabado superficial.
+
+WALL: Configuración especial para piezas con geomtrías muy "exóticas", como las que se generan con el algoritmo Voronoi, con su máximo exponente en el diseñador Dizingof. 
+      No tiene infill y se baja la temperatura y velocidad para mejorar los voladizos.
+
+STR:  Configuración especial para piezas que requieren unos esfuerzos mecánicos importantes. 
+      El infil se realiza en panel de abeja y se disminuye la altura de capa a 0,15mm para mejorar la adhesión enetre las capas.
