@@ -1,0 +1,20 @@
+Les configurations ont été conçues pour une BCN3D+ avec une buse de 0.4mm.
+
+C'est un point de départ et peut être amélioré pour aller plus vite, obtenir une meilleure finition ...
+
+Les abréviations correspondent à:
+
+ST: Configuration hauteur standard de 0,2 mm couche pour la plupart des objets.
+
+HQ: Configuration de haute qualité hauteur de la couche de 0,1 mm pour la norme la plupart des objets.
+
+HS: Configuration conçu pour obtenir le modèle d'une façon rapide, sans perdre beaucoup de qualité.
+      Pour cela, une hauteur de couche de 0,25, un remplissage de 10% est réglé, exécuter seulement 2 périmètres et une vitesse augmentée.
+
+SV: Type d'emballage spécial pour la configuration des pièces. Aucune infill et peut être fabriqué avec une spirale superifie uniques, améliorer la finition de surface.
+
+WALL: spécial pour pièces geometrique très "exotique", tels que ceux générés par l'algorithme de Voronoï, avec son maximum exposant dans le concepteur Dizingof.
+      Pas de remplissage,la température et la vitesse sont abaissée pour améliorer les consoles.
+
+STR: en particulier pour les pièces qui nécessitent un effort majeur Configuration mécanique.
+      Le infil est réalisé en nid d'abeilles et la hauteur de la couche est réduite à 0,15 mm pour améliorer couches de enetre d'adhésine.
